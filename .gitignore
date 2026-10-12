@@ -1,0 +1,27 @@
+# Node.js / Expo
+node_modules/
+.expo/
+dist/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+
+# User-uploaded images
+uploads/
+
+#spec tools
+asd/tool
