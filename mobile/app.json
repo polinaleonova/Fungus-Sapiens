@@ -26,6 +26,14 @@
     "plugins": [
       "expo-router",
       [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Fungus Sapiens to access selected photos.",
+          "cameraPermission": "Allow Fungus Sapiens to photograph mushrooms.",
+          "microphonePermission": false
+        }
+      ],
+      [
         "expo-splash-screen",
         {
           "backgroundColor": "#208AEF",
